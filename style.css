@@ -7,6 +7,9 @@ head{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name-highlight{
     color: orange;
 }
@@ -19,10 +22,27 @@ h1{
 .half-width img{
     width: 100%;
 }
+p{
+    color: dimgrey;
+}
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat    ;
 }
 section{
-    height: 500px;      
+    height: 500px; 
+    padding-bottom: 150px;     
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, red, green);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;   
+    font-weight: 700px;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat ;
+    background-position: right;
 }
